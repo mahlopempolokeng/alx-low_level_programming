@@ -2,27 +2,24 @@
 
 
 /**
- * main - Entry point 
+ * main -entry point
  *
- *Description;priinnt numbers of base16 in lowercasw
  *
- * Return: Always 0 (Success)
+ *
+ * description: print numbers of base16 in lower case
+ *
+ * return: a;ways 0 (SUCCESS)
  */
-
 int main(void)
 {
-	int  digit = 48;/*48; decimal rep of 0*/
+	int digit = 48;/*48;decimal repo of 0*/
 
-	while(digit <= 102)/*102; decimalrep of f*/
+	while (digit  <= 102)/*102;decimal repo of f*/
 	{
-		putchR(DIGIT0;
-				/*after 9 we jump til 96; '*/if(digit == 57) digit += 39;
-				++digit;
-				}
-				putchar('n\');
+		putchar(digit);/*after 9 we jump till 96;'*/if (digit == 57) digit +=39;
+		++digit;
+	}
+	putchar('\n');
 
-				return (0)
-				}
-
-
-			 
+	return (0);
+}
