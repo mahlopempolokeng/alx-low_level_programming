@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
  * Description: main-Prints ouy a string to stdout
  * Return:0 iff success.
  */
+
 int main(void)
 
 {
