@@ -1,17 +1,20 @@
-#include "main.h"
-/**
- * _strlen - returns the length of a string
- * @s: string
- * Return: length
- */
-int _strlen(char *s)
-{
-	int longi = 0;
+#include"main.h"
 
-	while (*s != '\0')
+/**
+ * _puts - prints a string, followed by a newline to stdout
+ *
+ * @str: string parameter to print
+ *
+ * Return: Nothing
+*/
+
+void _puts(char *str)
+{
+	while (*str != '\0')
 	{
-		longi++;
-		s++;
+		_putchar(*str + 0);
+		++str;
 	}
-	return (longi);
+	_putchar('\n');
 }
+
