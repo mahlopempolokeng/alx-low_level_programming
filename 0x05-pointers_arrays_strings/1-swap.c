@@ -1,8 +1,10 @@
-#include "main.n"
+#include"mai.h"
 
 /**
- * swap_int - swaps the values of two integers
- * @b: interger to swap
+ * Swap_int - swaps the values of two integers
+ * @a: interger to swap
+ * @b: integer too swap
+ * return
  */
 void swap_int(int *a, int *b)
 {
